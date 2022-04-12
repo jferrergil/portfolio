@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+@layer base{
+    body{
+        @apply font-[Montserrat];
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
